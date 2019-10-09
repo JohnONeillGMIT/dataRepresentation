@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<library>
+	<technical>
+		<book isbn-13="978-0131774292" isbn-10="0131774298"> 
+		<title>Python Programming</title> 
+		<publisher>Prentice Hall</publisher> 
+		<author>Peter van der Linden</author> 
+	</technical>
+
+	<cookery>
+		<book isbn-13="978" isbn-10="013"> 
+		<title>Another Python Programming</title> 
+		<publisher>Prentice Hall</publisher> 
+		<author>Peter van der Linden again</author> 
+	</cookery>
+
+</library>
