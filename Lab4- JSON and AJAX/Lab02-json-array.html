@@ -1,0 +1,19 @@
+<html>
+<head>
+     <Title>Lab02-json-array</Title>
+</head>
+
+<body>
+    
+</body>
+<script>
+    var jsonString='{"employees": [{"firstName": "John", "lastName": "Doe"},{"firstName": "Anna","lastName": "Smith"},{"firstName": "Peter","lastName": "Jones"}]}'
+    var obj = JSON.parse(jsonString);
+    var employees= obj.employees;
+
+    for (employee of obj.employees)
+    {
+    console.log(employee.firstName);
+    }
+</script>
+</html>
