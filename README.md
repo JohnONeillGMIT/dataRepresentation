@@ -15,3 +15,6 @@ The programs demonstrate how we can carry out numerous data retrival and write t
 Week04 - JSON and AJAX
 + The week 4 Labs folder contains 5 HTML files interrogating various sites and returning data to the console
 + Use of buttons to result results to book screena nd console.
+
+Week07 - Consolidation Week
++ Running multiple python files to search through URL and save down to Excel file among others...
