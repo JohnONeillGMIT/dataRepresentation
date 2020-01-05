@@ -6,10 +6,10 @@ class EmplDirDAO:
     db=""
     def __init__(self):
         self.db = mysql.connector.connect(
-        host = "localhost",
-        user = "root",
-        password = "root",
-        database =   'datarepresentation2',
+        host = cfg.mysql["host"],
+        user = cfg.mysql["user"],
+        password = cfg.mysql["password"],
+        database =  cfg.mysql['database'],
         auth_plugin="mysql_native_password"
         )
     def create(self,values):
